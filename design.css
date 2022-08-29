@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(255, 205, 130);
+}
+
+.botoes {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+#par {
+    margin-right: 7%;
+}
+
+#par, #impar {
+    padding: 1%;
+}
+
+#numeros-par, #numeros-impar {
+    padding: 2vh;
+    height: fit-content;
+    border-style: dotted;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Par-Impar</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>  
+
+<div style="display: flex; justify-content:space-around">
+
+    <div>
+        <div style="display: flex; justify-content: center; font-size: 5vh;"><p>Pares</p></div>
+        <div id="numeros-par"></div>
+    </div>
+
+    <div>
+        <div style="margin-top: 5%; display: flex; justify-content: center; font-size: 5vh;"><p>Impares</p></div>
+        <div id="numeros-impar"></div>
+    </div>
+
+</div>
+
+<div style="display: flex; justify-content: center; margin-top: 10vh;">
+    <div style="display: flex; justify-content: center;">Vetor: </div>
+    <div id="mostrar-vetor" style="display: flex; justify-content: center; margin-left: 1%;"></div>
+</div>    
+<div style="display: flex; justify-content: center; margin-top: 10vh;"><input type="number" id="vet"><button onclick="vetor()">Enviar</button></div>
+
+
+<div class="botoes">
+    <button onclick="par()" id="par">Par</button>
+    <button onclick="impar()" id="impar">Impar</button>
+</div>
+</body>
+</html>
